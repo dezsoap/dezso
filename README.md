@@ -1,0 +1,2 @@
+# dezso
+diak vagyok

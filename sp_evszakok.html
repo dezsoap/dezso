@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÉVSZAKOK</title>
+
+    <style>
+        body {
+            background-color: #87EC2D
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2DECD3;
+        }
+
+        .menu li {
+            float: left;
+        }
+
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .menu li a:hover:not(.active) {
+            background-color: #EC2D2D;
+        }
+
+        .menu .active {
+            background-color: #2D57EC;
+        }
+
+        .evszakok {
+            margin: 1%;
+            float: left;
+            transition: .8s;
+            text-align: center;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+
+        .evszakok img {
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 300px;
+            height: 200px;
+        }
+
+        .evszakok:hover {
+            transform: scale(1.1);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="menu">
+        <ul>
+            <li><a href="https://dezsoap.github.io/dezso/index.html">Főoldal</a></li>
+            <li><a href="https://dezsoap.github.io/dezso/keplink.html">Képlinkes feladat</a></li>
+            <li><a href="https://dezsoap.github.io/dezso/lista.html">Listás feladat</a></li>
+            <li><a href="https://dezsoap.github.io/dezso/órarend.html">Órarendes feladat</a></li>
+            <li><a href="https://dezsoap.github.io/dezso/urlap.html">Űrlapos feladat</a></li>
+            <li><a class="active" href="https://dezsoap.github.io/dezso/évszakok.html">Évszakos feladat</a></li>
+            <li><a href="https://dezsoap.github.io/dezso/div.html">Dobozok</a></li>
+        </ul>
+    </div>
+
+    <div class="evszakok">
+        <img src="https://dezsoap.github.io/dezso/IMG/tavasz.jpg" alt="Tavasz" title="Egy szép tavaszi kép">
+        <p>Tavasz</p>
+    </div>
+    <div class="evszakok">
+        <img src="https://dezsoap.github.io/dezso/IMG/nyar.jpg" alt="Nyár" title="Egy jó kis nyári kép">
+        <p>Nyár</p>
+    </div>
+    <div class="evszakok">
+        <img src="https://dezsoap.github.io/dezso/IMG/ősz.jpg" alt="Ősz" title="Csodaszép őszi kép">
+        <p>Ősz</p>
+    </div>
+    <div class="evszakok">
+        <img src="https://dezsoap.github.io/dezso/IMG/tél.jpg" alt="Tél" title="Hideg téli kép">
+        <p>Tél</p>
+    </div>
+
+</body>
+
+</html>

@@ -50,19 +50,27 @@
 }
 
 
+.foot{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 footer {
-  margin-top: 97%;
+  margin-top: 3%;
   text-align: center;
   padding: 3px;  
   background-color: #000080;
   color: white;
 }
 
+
 <body style="font-family:Verdana;color:white;background-color:#483D8B">
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .menu, .main, .right, .footer {
     width: 100%;
   }
 }
@@ -106,12 +114,6 @@ A futball lábsport, de a játékos bármely testrészét használhatja a labda 
 A Nemzetközi Labdarúgó-szövetség (FIFA) felmérése szerint a futballt a világ több mint 200 országában 240 milliónál többen játsszák rendszeresen. Hétvégenként nézők milliói követik nyomon kedvenc csapatuk játékát a helyszínen vagy a televízión. A tévékészülékek elterjedése előtt egy-egy nagy mérkőzés közvetítése hatalmas rádióhallgatóságot vonzott.
 
 Az egyszerű szabályrendszer és a minimális sportszerigény nagyban hozzájárult a játék elterjedéséhez.
-
-Európa, de főleg a „fejlődő világ” – Latin-Amerika, Afrika és Ázsia – lakossága körében a futball társadalmi szerepe messze túlnőtt valóságos jelentőségéhez képest – sok országban fanatikus rajongás kíséri a helyi csapatokat, focistákat, mérkőzéseket.
-
-A játékosok és rajongók számát tekintve a világ legnépszerűbb labdajátéka a labdarúgás.[2]
-
-„Puskás nem osztotta Heisenberg nézetét, ő mindig egyszerre tudván tudta a labda helyét is, sebességét is (igaz, a futball Euklidész világa, ahol a kapufák szögeinek összege mindig 180 fok).
 <p/>
 
 
@@ -125,11 +127,13 @@ A játékosok és rajongók számát tekintve a világ legnépszerűbb labdaját
  </div>
   
 
-  <footer>
-    <p>Author: Dezső Ádám Péter<br>
-      <a href="https://github.com/dezsoap/dezso.git">https://github.com/dezsoap/dezso.git</a>
-    </p>
-  </footer>
+  <div class="footer">
+   	<footer>
+	<p>Author: Dezső Ádám Péter<br>
+      	<a href="https://github.com/dezsoap/dezso.git">https://github.com/dezsoap/dezso.git</a>
+    	</p>
+	<footer/>
+  </div>
 
 </body>
 

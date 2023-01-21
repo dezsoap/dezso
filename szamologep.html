@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+</head>
+
+<body>
+    <form action="javascript:void(0)">
+        <fieldset>
+            <legend>Egyszerű számológép program</legend>
+            <input type="number" name="szam" id="szam1" placeholder="SZÁM 1"> .
+            <input type="number" name="szam" id="szam2" placeholder="SZÁM 2"> =
+            <input type="text" id="eredmeny" placeholder="eredmény" readonly>
+            <br><br>
+            <label for="muv">művelet:</label>
+            <input type="button" name="muv" value="+" onclick="ad()">
+            <input type="button" name="muv" value="-">
+            <input type="button" name="muv" value=".">
+            <input type="button" name="muv" value=":">
+            <input type="reset" name="muv" value="DEL">
+        </fieldset>
+    </form>
+    <script>
+        function ad() {
+            eredmeny.value = Number(szam1.value) + Number(szam2.value);
+        }
+
+        function kiv() {
+
+        }
+
+
+        function szor() {
+
+        }
+
+
+        function oszt() {
+
+        }
+    </script>
+</body>
+
+</html>
